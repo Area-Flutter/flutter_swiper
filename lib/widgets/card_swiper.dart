@@ -10,10 +10,11 @@ class CardSwiper extends StatelessWidget {
 
     final size = MediaQuery.of(context).size;
 
+    // ignore: sized_box_for_whitespace
     return Container(
       width: double.infinity,
       height: size.height * 0.6,
-      color: Colors.redAccent,
+      // color: Colors.redAccent,
       child: Swiper(
         itemCount: 10,
         layout: SwiperLayout.STACK,
